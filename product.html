@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Products</title>
+  </head>
+  <body id="top">
+    <!-- header nav bar -->
+    <section class="header" id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#"><i class="fas fa-code"></i><span>D&Son's</span></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ByCategory">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#latestProd">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <a href="search.html" class="btn btn-outline-success my-2 my-sm-0">Search</a>
+                <a href="cart.html" class="ml-2"><i class="fas fa-cart-plus fa-2x"></i></a>
+              </form>
+            </div>
+          </nav>
+    </section>
+
+    <!-- products -->
+    <section class="products py-5 my-5" id="products">
+        <div class="container">
+            <div class="product_header text-center">
+                <h1>products</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div>
+                        <h2>Filters</h2>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                          Price
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Brand</a>
+                        <a href="#" class="list-group-item list-group-item-action">Collection</a>
+                        <a href="#" class="list-group-item list-group-item-action">Size</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Avg. customer Review</a>
+                    </div>
+                    
+                    <form>
+                        <div class="form-group mt-4">
+                          <label for="formControlRange">Price Range</label>
+                          <input type="range" min="100" max="1000" step="100" class="form-control-range" id="formControlRange">
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-between">
+                        <label>Rs 100</label>
+                        <label>Rs 1000</label>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="single_product shadow text-center p1">
+                            <div class="product_img">
+                                <a href="product_details.html"><img src="https://images.unsplash.com/photo-1502727135886-df285cc8379f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img img-fluid rounded" alt=""></a>
+                            </div>
+                            
+                            <div class="new_product top-left">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div>
+                            <div class="product_caption">
+                                <h4><a href="product_details.html">Wedding dress</a></h4>
+                            </div>
+                            <div class="prod_desc">
+                              <p>s expedita, possimus nemo consequuntur assumenda officiis</p>
+                            </div>
+                            <br>
+                        </div>  
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single_product shadow text-center p1">
+                            <div class="product_img">
+                                <a href="product_details.html"><img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img img-fluid rounded" alt=""></a>
+                            </div>
+                            
+                            <div class="new_product top-left">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div>
+                            <div class="product_caption">
+                                <h4><a href="product_details.html">Suit</a></h4>
+                            </div>
+                            <div class="prod_desc">
+                              <p>s expedita, possimus nemo consequuntur assumenda officiis</p>
+                          </div>
+                            <br>
+                        </div>  
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single_product shadow text-center p1">
+                            <div class="product_img">
+                                <a href="product_details.html"><img src="https://images.unsplash.com/photo-1595877786462-ea6dc03f1695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img img-fluid rounded" alt=""></a>
+                            </div>
+                            
+                            <!-- <div class="new_product top-left">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div> -->
+                            <div class="product_caption">
+                                <h4><a href="product_details.html">Party dress</a></h4>
+                            </div>
+                            <div class="prod_desc">
+                                <p>s expedita, possimus nemo consequuntur assumenda officiis</p>
+                            </div>
+                            <br>
+                        </div>  
+                        </div>
+                    </div> <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="single_product shadow text-center p1">
+                            <div class="product_img">
+                                <a href="product_details.html"><img src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img img-fluid rounded" alt=""></a>
+                            </div>
+                            
+                            <!-- <div class="new_product top-left">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div> -->
+                            <div class="product_caption">
+                                <h4><a href="product_details.html">Jeans</a></h4>
+                            </div>
+                            <div class="prod_desc">
+                                <p>Lorem ipsum dolor sit amre, blanditiis expeditaptatit, aliquam</p>
+                            </div>
+                            <br>
+                        </div>  
+                        </div>
+                        <div class="col-md-4">
+                          <div class="single_product shadow text-center p1">
+                            <div class="product_img">
+                                <a href="product_details.html"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img img-fluid rounded" alt=""></a>
+                            </div>
+                            
+                            <!-- <div class="new_product top-left">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div> -->
+                            <div class="product_caption">
+                                <h4><a href="product_details.html">Workout dress</a></h4>
+                            </div>
+                            <div class="prod_desc">
+                                <p>Laboriosam, maiores modi! Tempore odit inventore</p>
+                            </div>
+                            <br>
+                        </div>  
+                        </div>
+                        <div class="col-md-4"> 
+                          <div class="single_product shadow text-center p1">
+                            <div class="product_img">
+                                <a href="product_details.html"><img src="https://images.unsplash.com/photo-1549037173-e3b717902c57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img img-fluid rounded" alt=""></a>
+                            </div>
+                            
+                            <!-- <div class="new_product top-left">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div> -->
+                            <div class="product_caption">
+                                <h4><a href="product_details.html">Shirts</a></h4>
+                            </div>
+                            <div class="prod_desc">
+                                <p>magnam optio delectus ipsum ex? Velit, aliquam perspiciatis?</p>
+                            </div>
+                            <br>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer_section pt-5 mb-0 pb-0" id="footer_section">
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <h4>Get To Know us</h4>
+                  <ul>
+                    <li><a href="aboutus.html">About us</a> </li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#"> Gift a Smile</a></li>
+                    <li><a href="contactus.html"> Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Connect with us</h4>
+                    <ul>
+                      <li><a href="#">Facebook</a> </li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                  <h4>Help</h4>
+                  <ul>
+                    <li><a href="#">Payments</a> </li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & return</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h4>Policy</h4>
+                  <ul>
+                    <li><a href="#">Return Policy</a> </li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="border-top text-center pt-3">
+              <h6>Copyright @2020 All Rights Reserved </h6>
+            </div>
+        </footer>
+    </section>
+
+    <div class="backtop">
+      <a href="#top" id="button" class="btn btn-lg btn-outline-danger" role="button">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
